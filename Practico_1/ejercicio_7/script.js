@@ -31,7 +31,7 @@ function blanco_negro (datos){
             r = colour * y;
             g = colour * y;
             b = colour * y;
-            setPixel (imageData, x, y, r, g, b, a);
+           
 }}
 ctx.drawImage(img, 0, 0,500,500);
 }
