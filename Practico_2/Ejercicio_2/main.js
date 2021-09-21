@@ -6,12 +6,16 @@ let MouseDown = false ;
 let lastClickedFigure = null;
 function AgregarFiguras (){
     for (let i = 0 ; i < 15 ; i++ ){
-    //   rect (); 
-    //  circle ();
-    triangulo = new Triangulo (405,100,38,145,130,60,"#000000", ctx);
-    triangulo.draw();
+       rect (); 
+     circle ();
+    // triangulo = new Triangulo (320,320,220,220,520,320,"#000000", ctx);
+    // triangulo.draw();
+    // trianguo = new Triangulo (160,160,210,210,260,160,"#9775AA", ctx);
+    // trianguo.draw();
+    // // trianguo = new Triangulo (200,200,150,150,100,10,"#000000", ctx);
+    // // trianguo.draw();
 }
-// drawFigures ()
+ drawFigures ()
 }
 
 function rect (){
@@ -71,6 +75,7 @@ function onmousemove (e){
 
 function onmouseup (e){
     MouseDown = false;
+    
 }
 
 function findClickedFigure(x,y){
